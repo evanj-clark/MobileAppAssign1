@@ -1,0 +1,59 @@
+<div class="page" data-name="page1">
+    <div class="page-content">
+        <div class="ai">
+            <img class="aiBox" src="/www/imgs/Sprite.gif">
+        </div>
+        <div>
+            <p class="talk">Thank You</p>
+        </div>
+
+
+        <div class="workspace">
+            <div class="pick hidden">
+                <form>
+                    <input type="radio" id="death" name="art" value="skull">
+                    <label for="death">Death</label><br>
+                    <input type="radio" id="automation" name="art" value="gear">
+                    <label for="automation">Automation</label><br>
+                    <input type="radio" id="nature" name="art" value="fish">
+                    <label for="nature">Nature</label>
+                </form>
+                <button class="button link savechoice" href="#">Done</button>
+            </div>
+            <div class="reward1 hidden">
+                <img src="/www/imgs/puppy.gif">
+            </div>
+            <div class="colorPick hidden">
+                <form>
+                    <label for="colorChoice">Select your favorite color:</label>
+                    <input type="color" id="colorChoice" name="colorChoice">
+                </form>
+                <button class="button link savechoice2" href="#">Done</button>
+            </div>
+            <div class="reward2 hidden">
+                <img src="/www/imgs/kitten.gif">
+            </div>
+        </div>
+
+
+
+        <!-- Right Panel with Cover effect -->
+        <div class="panel panel-right panel-cover panel-init">
+            <div class="finalArtwork">
+            </div>
+
+            <div class="block">
+
+                <!-- Click on link with "panel-close" class will close panel -->
+                <p><a href="#" class="panel-close">Close</a></p>
+            </div>
+        </div>
+        <div class="block">
+            <!-- Click on link with "panel-open" and data-panel=".panel-right" attribute will open Right panel -->
+            <p><a href="#" data-panel=".panel-right" class="panel-open">Progress</a></p>
+        </div>
+    </div>
+
+
+
+</div>

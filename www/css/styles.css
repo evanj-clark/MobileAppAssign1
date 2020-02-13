@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    
+}
+.page-content {
+    background: #333333;
+    color: white;
+    padding: 30px;
+
+
+}
+
+img {
+    width: 100%;
+}
+
+#aiStart{
+    margin-top: 30vh;
+    border-style: solid; 
+    border-width: 5px;
+}
+
+.talkStart{
+    text-align: center;
+    padding: 10%;
+}
+
+.aiBox{
+
+    border-style: solid; 
+    border-width: 5px;
+}
+
+.talk{
+    text-align: center;
+    padding: 10%;
+}
+
+.hidden{
+    display: none;
+}
+
+p{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+}
+
+.choice{
+    color: black;
+}
+
+.block{
+    position: absolute;
+    bottom: 10px;
+    width: 85%;
+    text-align: center;
+}
+
+.finalArtwork{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    border-style: solid;
+}
+
+.finalPic{
+    width: 70%;
+    margin: 10%;
+    margin-left: 15%;
+}
+
+.startButton{
+    margin-left: 35vw;
+}
