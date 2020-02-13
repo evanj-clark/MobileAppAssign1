@@ -74,7 +74,7 @@ $$(document).on('page:init', function () {
     $(".savechoice2").on("click", function () {
         var finalColor = $("#colorChoice").val();
         $(".colorPick").toggleClass("hidden");
-        $(".finalArtwork").css("background-color:" + '"' + finalColor + '"')
+        $(".finalArtwork").css("background-color", finalColor)
         $(".talk").text("A fine and very human choice. Here is your reward");
         $(".reward2").toggleClass("hidden");
         console.log(finalColor);
